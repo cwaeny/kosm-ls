@@ -249,3 +249,16 @@ p.sitecopy {
   padding-bottom: 10rem;
 }
 }
+
+a.footer_link {
+  color: #E0F1EF;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+a.footer_link:hover {
+  color: #00B2C3;
+  text-decoration: none;
+  cursor: pointer;
+}
