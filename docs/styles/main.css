@@ -81,8 +81,9 @@ h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.85rem;
   color: #162843;
-  line-height: 3rem;
+  line-height: 2.8rem;
   font-weight: 300;
+  margin-bottom: 1.75rem;
 }
 
 @media (min-width: 992px){
@@ -92,7 +93,17 @@ h1 {
   color: #162843;
   line-height: 3.3125rem;
   font-weight: 300;
+  margin-bottom: 2.25rem;
 }
+}
+
+h6 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #67767E;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 p {
@@ -100,6 +111,14 @@ p {
   font-weight: 300;
   font-size: 1.125rem;
   color: #162843;
+  line-height: 1.875rem;
+}
+
+p.highlight {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: #00B2C3;
   line-height: 1.875rem;
 }
 
@@ -167,7 +186,7 @@ a.primary-btn:hover {
 @media (min-width: 992px){
 .imgcontainer {
   margin-top: 3rem;
-  height: 40rem;
+  height: 45rem;
   background-image: url('../img/kosmetik-lifesytle.jpg');
   background-position: center;
   background-size: cover;
@@ -184,7 +203,7 @@ a.primary-btn:hover {
   margin-bottom: 12rem;
 }
 
-#footer {
+.footer {
   background-color: #162843;
   color: #FFF;
   padding-top: 2rem;
@@ -256,8 +275,8 @@ p.sitecopy {
 
 @media (min-width: 992px){
 .contentwrap {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 }
 
@@ -272,4 +291,48 @@ a.footer_link:hover {
   color: #00B2C3;
   text-decoration: none;
   cursor: pointer;
+}
+
+a.legal {
+  color: #00B2C3;
+  border-bottom: 2px solid #90D9DE;
+  transition: all ease 0.2s;
+}
+
+a.legal:hover {
+  color: #162843;
+  border-bottom: 2px solid #162843;
+  text-decoration: none;
+}
+
+a.link {
+  color: #00B2C3;
+  border-bottom: 2px solid #90D9DE;
+  transition: all ease 0.2s;
+}
+
+a.link:hover {
+  color: #162843;
+  border-bottom: 2px solid #162843;
+  text-decoration: none;
+}
+
+.siteheading {
+  padding-top: 3rem;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 1.625rem;
+  color: #162843;
+  line-height: 2.5rem;
+}
+
+ul {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 1.125rem;
+  color: #162843;
+  line-height: 1.875rem;
 }
